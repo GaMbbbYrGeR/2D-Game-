@@ -4,3 +4,6 @@ canvas {
     display: block;
     width: auto;
 }
+body {
+    background: darkslategray;
+}
