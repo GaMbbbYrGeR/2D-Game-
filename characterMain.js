@@ -3,7 +3,7 @@ function Character() {
 	this.tileTo = [1, 1];
 	this.timeMoved = 0;
 	this.dimensions = [38, 60];
-	this.position = [45, 45];
+	this.position = [41, 30];
 	this.delayMove = 150;
 	this.direction = directions.down;
 	this.sprites = {};
