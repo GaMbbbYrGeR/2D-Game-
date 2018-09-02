@@ -1,5 +1,4 @@
-const desk600 = new MapObject(2),
-	  desk601 = new MapObject(2),
+const desk601 = new MapObject(2),
 	  desk602 = new MapObject(2),
 	  desk603 = new MapObject(2),
 	  desk604 = new MapObject(2),
@@ -28,8 +27,6 @@ const desk600 = new MapObject(2),
       	  stud6_7 = new MapObject(38);
 
 function objectsMap6() {
-	
-	desk600.placeAt(1, 2, 6);
 	
 	desk601.placeAt(1, 4, 6);
 	desk602.placeAt(1, 6, 6);

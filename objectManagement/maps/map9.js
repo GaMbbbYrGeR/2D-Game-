@@ -64,43 +64,43 @@ function objectsMap9() {
 	desk903.placeAt(2, 10, 9);
 	desk904.placeAt(2, 12, 9);
 	desk905.placeAt(2, 14, 9);
-	desk906.placeAt(2, 16, 9);
-	desk907.placeAt(2, 18, 9);
-	
+	desk906.placeAt(2, 4, 9);
+	desk907.placeAt(2, 2, 9);
+
 	desk908.placeAt(4, 6, 9);
 	desk909.placeAt(4, 8, 9);
 	desk910.placeAt(4, 10, 9);
 	desk911.placeAt(4, 12, 9);
 	desk912.placeAt(4, 14, 9);
-	desk913.placeAt(4, 16, 9);
-	desk914.placeAt(4, 18, 9);
+	desk913.placeAt(4, 4, 9);
+	desk914.placeAt(4, 2, 9);
 	
 	desk915.placeAt(6, 6, 9);
 	desk916.placeAt(6, 8, 9);
 	desk917.placeAt(6, 10, 9);
 	desk918.placeAt(6, 12, 9);
 	desk919.placeAt(6, 14, 9);
-	desk920.placeAt(6, 16, 9);
-	desk921.placeAt(6, 18, 9);
+	desk920.placeAt(6, 4, 9);
+	desk921.placeAt(6, 2, 9);
 	
 	desk922.placeAt(8, 6, 9);
 	desk923.placeAt(8, 8, 9);
 	desk924.placeAt(8, 10, 9);
 	desk925.placeAt(8, 12, 9);
 	desk926.placeAt(8, 14, 9);
-	desk927.placeAt(8, 16, 9);
-	desk928.placeAt(8, 18, 9);
+	desk927.placeAt(8, 4, 9);
+	desk928.placeAt(8, 2, 9);
 	
 	desk929.placeAt(10, 6, 9);
 	desk930.placeAt(10, 8, 9);
 	desk931.placeAt(10, 10, 9);
 	desk932.placeAt(10, 12, 9);
 	desk933.placeAt(10, 14, 9);
-	desk934.placeAt(10, 16, 9);
-	desk935.placeAt(10, 18, 9);
+	desk934.placeAt(10, 4, 9);
+	desk935.placeAt(10, 2, 9);
 	
-	desk936.placeAt(4, 3, 9);
-	desk937.placeAt(7, 3, 9);
+	desk936.placeAt(4, 18, 9);
+	desk937.placeAt(7, 18, 9);
 }
 
 function npcsMap9() {
