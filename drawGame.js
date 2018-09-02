@@ -152,6 +152,7 @@ function drawGame() {
 		if(dayNo < 13) {
 			if(mapNo == 0) {
 				ctx.fillText('Посидеть сегодня дома [H]', 450, 20);
+				ctx.fillText('День ' + dayNo, 10, 470);
 			}
 			if(mapNo == 2) {
 				ctx.fillText('Телепорт домой [T]', 500, 20);
@@ -272,8 +273,14 @@ function drawGame() {
 			ctx.font = 'bold 13pt helvetica';
 			ctx.fillStyle = '#dbdbdb';
 			ctx.fillText('До сессии две недели, а вы ничего не знаете!', 125, 200);
-			ctx.fillText('Может пора это исправить?', 125, 225);
+			ctx.fillText('Может, пора это исправить?', 125, 225);
+			
+			ctx.font = '11pt helvetica';
+			ctx.fillText('За один день можно посетить три занятия,', 125, 265);
+			ctx.fillText('но не более одного по каждой дисциплине', 125, 285);
+			ctx.fillText('Минимум, необходимый для зачета - 60%', 125, 305);
 		
+			ctx.font = 'bold 13pt helvetica';
 			ctx.fillText('[Esc] Закрыть', 400, 330);
 		}
 		if (dayNo == 13) {
