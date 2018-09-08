@@ -294,18 +294,19 @@ function drawGame() {
 			
 			if(exams == 6) {
 				if(passed == 6) {
-				ctx.fillText('Вы успешно сдали все экзамены!', 125, 200);
-				ctx.fillText('[Esc] Новая игра', 380, 330);
-			} else {
-				ctx.fillText('Вы не закрыли сессию', 125, 200);
+					ctx.fillText('Вы успешно сдали все экзамены!', 125, 200);
+					ctx.fillText('[Esc] Новая игра', 380, 330);
 				
-				ctx.font = '12pt helvetica';
-				ctx.fillText('Видно не судьба', 125, 245);
-				ctx.fillText('видно не судьба', 125, 265);
-				
-				ctx.font = 'bold 13pt helvetica';
-				ctx.fillText('[Esc] Новая игра', 380, 330);
-			}
+				} else {
+					ctx.fillText('Вы не закрыли сессию', 125, 200);
+					
+					ctx.font = '12pt helvetica';
+					ctx.fillText('Видно не судьба', 125, 245);
+					ctx.fillText('видно не судьба', 125, 265);
+					
+					ctx.font = 'bold 13pt helvetica';
+					ctx.fillText('[Esc] Новая игра', 380, 330);
+				}
 			}
 		}
 	}
