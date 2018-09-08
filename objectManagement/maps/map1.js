@@ -13,7 +13,19 @@ const roof01 = new MapObject(4),
 	  tree14 = new MapObject(1),
 	  tree15 = new MapObject(1),
 		  
-	  fountain = new MapObject(9);
+	  fountain = new MapObject(9),
+      
+      	  stud1_1 = new MapObject(31),
+     	  stud1_2 = new MapObject(35),
+     	  stud1_3 = new MapObject(40),
+      	  stud1_4 = new MapObject(43),
+      	  stud1_5 = new MapObject(44),
+      	  stud1_6 = new MapObject(24),
+      	  stud1_7 = new MapObject(49),
+      	  stud1_8 = new MapObject(29),
+      	  stud1_9 = new MapObject(25),
+      	  stud1_10 = new MapObject(32),
+     	  stud1_11 = new MapObject(39);
 
 function objectsMap1() {
 	
@@ -33,4 +45,18 @@ function objectsMap1() {
 	tree15.placeAt(27, 20, 1);
 
 	fountain.placeAt(21, 19, 1);
+}
+
+function npcsMap1() {
+    stud1_1.placeAt(15, 4, 1);
+    stud1_2.placeAt(16, 4, 1);
+    stud1_3.placeAt(14, 5, 1);
+    stud1_4.placeAt(27, 8, 1);
+    stud1_5.placeAt(28, 9, 1);
+    stud1_6.placeAt(35, 17, 1);
+    stud1_7.placeAt(17, 21, 1);
+    stud1_8.placeAt(18, 22, 1);
+    stud1_9.placeAt(4, 18, 1);
+    stud1_10.placeAt(3, 19, 1);
+    stud1_11.placeAt(5, 19, 1);
 }

@@ -128,9 +128,9 @@ function npcsMap8() {
 	stud8_13.placeAt(6, 13, 8);
 	stud8_14.placeAt(8, 13, 8);
 	stud8_15.placeAt(10, 13, 8);
-	stud8_16.placeAt(9, 15, 8);
-	stud8_17.placeAt(5, 15, 8);
-	stud8_18.placeAt(2, 17, 8);
-	stud8_19.placeAt(7, 19, 8);
-	stud8_20.placeAt(8, 19, 8);
+	stud8_16.placeAt(4, 5, 8); 
+	stud8_17.placeAt(8, 5, 8); 
+	stud8_18.placeAt(9, 5, 8); 
+	stud8_19.placeAt(7, 3, 8); 
+	stud8_20.placeAt(11, 3, 8); 
 }

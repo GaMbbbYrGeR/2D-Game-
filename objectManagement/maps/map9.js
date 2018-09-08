@@ -105,18 +105,18 @@ function objectsMap9() {
 
 function npcsMap9() {
 	stud9_1.placeAt(3, 7, 9);
-    	stud9_2.placeAt(5, 7, 9);
+    	stud9_2.placeAt(5, 11, 9); 
     	stud9_3.placeAt(8, 7, 9);
     	stud9_4.placeAt(9, 7, 9);
     	stud9_5.placeAt(11, 9, 9);
     	stud9_6.placeAt(6, 9, 9);
     	stud9_7.placeAt(7, 9, 9);
-    	stud9_8.placeAt(3, 11, 9);
-    	stud9_9.placeAt(4, 11, 9);
-    	stud9_10.placeAt(5, 11, 9);
+    	stud9_8.placeAt(3, 13, 9); 
+    	stud9_9.placeAt(4, 13, 9); 
+    	stud9_10.placeAt(5, 13, 9); 
     	stud9_11.placeAt(9, 11, 9);
-    	stud9_12.placeAt(9, 13, 9);
-    	stud9_13.placeAt(4, 17, 9);
-    	stud9_14.placeAt(5, 17, 9);
-    	stud9_15.placeAt(7, 15, 9);
+    	stud9_12.placeAt(10, 13, 9); 
+    	stud9_13.placeAt(4, 5, 9); 
+    	stud9_14.placeAt(5, 5, 9); 
+    	stud9_15.placeAt(10, 5, 9); 
 }

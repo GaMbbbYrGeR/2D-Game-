@@ -605,7 +605,21 @@ const objectTypes = {
         offset: [0, -10],
         collision: objectCollision.solid,
         zIndex: 1
-    }
+    },
+	51: {
+		sp: student1,
+		sprite: [{
+			x: 0,
+			y: 0,
+			w: 44,
+			h: 64
+		}],
+		offset: [0, 15],
+		collision: objectCollision.solid,
+		zIndex: 1
+	}
+	
+	
 }
 
 function MapObject(a) {

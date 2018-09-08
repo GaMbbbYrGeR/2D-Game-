@@ -528,6 +528,8 @@ window.onload = function() {
 	objectsMap8();
 	objectsMap9();
 
+	npcsMap1();
+	npcsMap2();
 	npcsMap3();
 	npcsMap4();
 	npcsMap5();
