@@ -152,11 +152,13 @@ function drawGame() {
 		if(dayNo < 13) {
 			if(mapNo == 0) {
 				ctx.fillText('Посидеть сегодня дома [H]', 450, 20);
-				ctx.fillText('День ' + dayNo, 10, 470);
 			}
 			if(mapNo == 2) {
 				ctx.fillText('Телепорт домой [T]', 500, 20);
 			}
+		}
+		if(mapNo == 0) {
+			ctx.fillText('День ' + dayNo, 10, 470);
 		}
 	}
 	
@@ -290,7 +292,8 @@ function drawGame() {
 			ctx.font = 'bold 13pt helvetica';
 			ctx.fillStyle = '#dbdbdb';
 			
-			if(passed == 6) {
+			if(exams == 6) {
+				if(passed == 6) {
 				ctx.fillText('Вы успешно сдали все экзамены!', 125, 200);
 				ctx.fillText('[Esc] Новая игра', 380, 330);
 			} else {
@@ -302,6 +305,7 @@ function drawGame() {
 				
 				ctx.font = 'bold 13pt helvetica';
 				ctx.fillText('[Esc] Новая игра', 380, 330);
+			}
 			}
 		}
 	}

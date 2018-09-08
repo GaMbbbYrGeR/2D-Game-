@@ -349,14 +349,20 @@ window.onload = function() {
 		if (player.direction == directions.left && events < 3) {
 			mapNo = 5;
 			c.placeAt(10, 2);
-			events++;
+			
+			if(dayNo < 13) {
+				events++;
+			}
 		}
 	};
 	mapTileData[2].map[((33 * mapW[2]) + 21)].eventEnter = function(c) {
 		if (player.direction == directions.left && events < 3) {
 			mapNo = 5;
 			c.placeAt(10, 3);
-			events++;
+			
+			if(dayNo < 13) {
+				events++;
+			}
 		}
 	};
 	

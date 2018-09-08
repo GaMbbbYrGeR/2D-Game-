@@ -43,6 +43,8 @@ subject[subjects.PR] = {
 };
 
 function setRes(a) {
+	visit[a] = true;
+	
 	if(a == 3 || a == 4) {
 		if(100 / subject[a].Lessons * subject[a].Points < 60) {
 			subject[a].Res = 'незачет';
