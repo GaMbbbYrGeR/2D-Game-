@@ -31,7 +31,6 @@ function Character() {
 		y: 440,
 		w: 36,
 		h: 60
-	}];
-	this.inventory = new Inventory(0);
+	}];	
 }
 
