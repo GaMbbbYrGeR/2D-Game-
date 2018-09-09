@@ -128,25 +128,25 @@ function drawGame() {
 	ctx.fillStyle = '#ffffff';
 	ctx.font = "bold 10pt helvetica";
 	
-	if(!(message || info || schedule)) {
+	if (!(message || info || schedule)) {
 		ctx.fillText('[E] Информация', 10, 20);
 		ctx.fillText('[Q] Расписание', 10, 40);
 		ctx.fillText('[Shift] Бег', 10, 60);
 		
-		if(dayNo < 13) {
-			if(mapNo == 0) {
+		if (dayNo < 13) {
+			if (mapNo == 0) {
 				ctx.fillText('Посидеть сегодня дома [H]', 450, 20);
 			}
-			if(mapNo == 2) {
+			if (mapNo == 2) {
 				ctx.fillText('Телепорт домой [T]', 500, 20);
 			}
 		}
-		if(mapNo == 0) {
+		if (mapNo == 0) {
 			ctx.fillText('День ' + dayNo, 10, 470);
 		}
 	}
 	
-	if(info) {
+	if (info) {
 		ctx.fillStyle = '#000000';
 		ctx.fillRect(100, 100, 440, 280);
 		
@@ -218,7 +218,7 @@ function drawGame() {
 		}
 	}
 	
-	if(schedule) {
+	if (schedule) {
 		ctx.fillStyle = '#dbdbdb';
 		ctx.fillRect(100, 100, 440, 280);
 		
@@ -245,13 +245,13 @@ function drawGame() {
 		ctx.fillText('[Q] Закрыть', 420, 365);
 	}
 	
-	if(exams == 6) {
+	if (exams == 6) {
 		info = false;
 		schedule = false;
 		message = true;
 	}
 	
-	if(message) {
+	if (message) {
 		if (dayNo == 1) {
 			ctx.fillStyle = '#000000';
 			ctx.fillRect(100, 150, 440, 200);
@@ -276,9 +276,9 @@ function drawGame() {
 			ctx.font = 'bold 13pt helvetica';
 			ctx.fillStyle = '#dbdbdb';
 			
-			if(exams == 6) {
+			if (exams == 6) {
 				currentSpeed = 1;
-				if(passed == 6) {
+				if (passed == 6) {
 					ctx.fillText('Вы успешно сдали все экзамены!', 125, 200);
 					ctx.fillText('[Esc] Новая игра', 380, 330);
 				
