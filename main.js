@@ -125,7 +125,7 @@ const viewport = {
 		this.offset[0] = Math.floor((this.screen[0] / 2) - px);
 		this.offset[1] = Math.floor((this.screen[1] / 2) - py);
 
-		var tile = [
+		const tile = [
 			Math.floor(px / tileW),
 			Math.floor(py / tileH)
 		];
