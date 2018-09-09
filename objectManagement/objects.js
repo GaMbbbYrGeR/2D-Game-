@@ -617,9 +617,33 @@ const objectTypes = {
 		offset: [0, 15],
 		collision: objectCollision.solid,
 		zIndex: 1
+	},
+	52: {
+		sp: tMap6,
+		sprite: [{
+			x: 0,
+			y: 0,
+			w: 44,
+			h: 64
+		}],
+		offset: [-4, -32],
+		collision: objectCollision.solid,
+		zIndex: 2
+	},
+	53: {
+		sp: tMap9,
+		sprite: [{
+			x: 0,
+			y: 0,
+			w: 44,
+			h: 64
+		}],
+		offset: [-4, -32],
+		collision: objectCollision.solid,
+		zIndex: 2
 	}
-	
-	
+
+
 }
 
 function MapObject(a) {
