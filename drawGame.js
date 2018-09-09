@@ -115,24 +115,7 @@ function drawGame() {
 				player.dimensions[0], player.dimensions[1]);
 		}
 	}
-	ctx.textAlign = "right";
-	for (let i = 0; i < player.inventory.spaces; i++) {
-		ctx.fillStyle = "#ddccaa";
-		ctx.fillRect(10 + (i * 41), 430, 40, 40);
-		if (typeof player.inventory.stacks[i] != 'undefined') {
-			const it = itemTypes[player.inventory.stacks[i].type];
-			const sprite = it.sprite;
-			ctx.drawImage(tileset, sprite[0].x, sprite[0].y,
-				sprite[0].w, sptite[0].h,
-				viewport.offset[0] + (x * tileW) + itemTypes[is.type].offset[0],
-				viewport.offset[1] + (y * tileH) + itemTypes[is.type].offset[1],
-				sprite[0].w, sprite[0].h);
-			if (player.inventory.stacks[i].qty > 1) {
-				ctx.fillStyle = "#000000";
-				ctx.fillText("" + player.inventory.stacks[i].qty, 10 + (i * 41) + 38, 430 + 38);
-			}
-		}
-	}
+
 	ctx.textAlign = "left";
 	ctx.font = "bold 50pt helvetica";
 	ctx.fillStyle = "#f90606";
