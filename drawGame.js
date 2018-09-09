@@ -131,6 +131,7 @@ function drawGame() {
 	if(!(message || info || schedule)) {
 		ctx.fillText('[E] Информация', 10, 20);
 		ctx.fillText('[Q] Расписание', 10, 40);
+		ctx.fillText('[Shift] Бег', 10, 60);
 		
 		if(dayNo < 13) {
 			if(mapNo == 0) {
