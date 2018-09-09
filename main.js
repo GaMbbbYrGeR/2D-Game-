@@ -173,18 +173,25 @@ window.onload = function() {
 			(e.keyCode == 83) || (e.keyCode == 87) || (e.keyCode == 65) || (e.keyCode == 68)) {
 			keysDown[e.keyCode] = false;
 		}
-		if (e.keyCode == 80) {
-			currentSpeed = (currentSpeed >= (gameSpeeds.length - 1) ? 0 : currentSpeed + 1)
-		}
 		if (e.keyCode == 69 && !schedule && !message) {
 			info = !info;
 		}
 		if (e.keyCode == 81 && !info && !message) {
 			schedule = !schedule;
 		}
-		if (e.keyCode == 27) {
-			if (dayNo == 1) message = false;
-			if (dayNo == 13) newGame();
+		if (e.keyCode == 27 && dayNo == 1) {
+			message = false;
+		}
+		if (e.keyCode == 27 && currentSpeed == 1) {
+			if (dayNo == 1) {
+				message = false;
+			}
+			if (dayNo == 13) {
+				newGame();
+			}
+			if (currentSpeed == 1) {
+				currentSpeed--;
+			}
 		}
 		if (e.keyCode == 72 && mapNo == 0) {
 			nextDay();
