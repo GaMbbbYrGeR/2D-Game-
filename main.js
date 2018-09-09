@@ -13,7 +13,7 @@ let ctx = null,
 	message = true;
 
 const tileW = 40,
-	  tileH = 40;
+	tileH = 40;
 
 const keysDown = {
 	16: false,
@@ -92,7 +92,7 @@ MapObject.prototype.placeAt = function(nx, ny, mapN) {
 	this.x = nx;
 	this.y = ny;
 
-	let tmp = mapNo;
+	const tmp = mapNo;
 	mapNo = mapN;
 
 	mapTileData[mapN].map[toIndex(nx, ny)].object = this;
