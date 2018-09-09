@@ -293,6 +293,7 @@ function drawGame() {
 			ctx.fillStyle = '#dbdbdb';
 			
 			if(exams == 6) {
+				currentSpeed = 1;
 				if(passed == 6) {
 					ctx.fillText('Вы успешно сдали все экзамены!', 125, 200);
 					ctx.fillText('[Esc] Новая игра', 380, 330);
