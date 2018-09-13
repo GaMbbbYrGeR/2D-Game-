@@ -1,31 +1,37 @@
 const roof01 = new MapObject(4),
-	  roof02 = new MapObject(4),
+      roof02 = new MapObject(4),
 
-	  roof1 = new MapObject(5),
-	  roof2 = new MapObject(6),
-	  roof3 = new MapObject(7),
-	  roof31 = new MapObject(8),
-	  roof32 = new MapObject(8),
-
-	  tree11 = new MapObject(1),
-	  tree12 = new MapObject(1),
-	  tree13 = new MapObject(1),
-	  tree14 = new MapObject(1),
-	  tree15 = new MapObject(1),
-		  
-	  fountain = new MapObject(9),
+      roof1 = new MapObject(5),
+      roof2 = new MapObject(6),
+      roof3 = new MapObject(7),
+      roof31 = new MapObject(8),
+      roof32 = new MapObject(8),
       
-      	  stud1_1 = new MapObject(31),
-     	  stud1_2 = new MapObject(35),
-     	  stud1_3 = new MapObject(40),
-      	  stud1_4 = new MapObject(43),
-      	  stud1_5 = new MapObject(44),
-      	  stud1_6 = new MapObject(24),
-      	  stud1_7 = new MapObject(49),
-      	  stud1_8 = new MapObject(29),
-      	  stud1_9 = new MapObject(25),
-      	  stud1_10 = new MapObject(32),
-     	  stud1_11 = new MapObject(39);
+      tree11 = new MapObject(1),
+      tree12 = new MapObject(1),
+      tree13 = new MapObject(1),
+      tree14 = new MapObject(1),
+      tree15 = new MapObject(1),
+      
+      tree16 = new MapObject(1),
+      tree17 = new MapObject(1),
+      tree18 = new MapObject(1),
+      tree19 = new MapObject(1),
+      tree20 = new MapObject(1),
+      
+      fountain = new MapObject(9),
+      
+      stud1_1 = new MapObject(31),
+      stud1_2 = new MapObject(35),
+      stud1_3 = new MapObject(40),
+      stud1_4 = new MapObject(43),
+      stud1_5 = new MapObject(44),
+      stud1_6 = new MapObject(24),
+      stud1_7 = new MapObject(49),
+      stud1_8 = new MapObject(29),
+      stud1_9 = new MapObject(25),
+      stud1_10 = new MapObject(32),
+      stud1_11 = new MapObject(39);
 
 function objectsMap1() {
 	
@@ -43,6 +49,12 @@ function objectsMap1() {
 	tree13.placeAt(29, 18, 1);
 	tree14.placeAt(31, 21, 1);
 	tree15.placeAt(27, 20, 1);
+    
+	tree16.placeAt(5, 9, 1);
+	tree17.placeAt(1, 13, 1);
+	tree18.placeAt(2, 10, 1);
+	tree19.placeAt(37, 9, 1);
+	tree20.placeAt(41, 14, 1);
 
 	fountain.placeAt(21, 19, 1);
 }
