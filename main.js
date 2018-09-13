@@ -3,17 +3,17 @@
 let mapNo = 0;
 
 let ctx = null,
-	currentSecond = 0,
-	frameCount = 0,
-	framesLastSecond = 0,
-	lastFrameTime = 0,
+    currentSecond = 0,
+    frameCount = 0,
+    framesLastSecond = 0,
+    lastFrameTime = 0,
 	
-	info = false,
-	schedule = false,
-	message = true;
+    info = false,
+    schedule = false,
+    message = true;
 
 const tileW = 40,
-	tileH = 40;
+      tileH = 40;
 
 const keysDown = {
 	16: false,
